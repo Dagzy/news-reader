@@ -1,0 +1,14 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "It's actually a news app!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Quincy Williams",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}

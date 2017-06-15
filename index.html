@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+		<script type="text/javascript" src= "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script type="text/javascript" src= "https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<title>What happened today?</title>
+		<nav class="navbar">
+			<div class="btn-group btn-group-justified" role="group">
+			  <div class="btn-group" role="group">
+			    <button type="button" class="btn btn-default"><a href="https://www.wsj.com">The WSJ</a></button>
+			  </div>
+			  <div class="btn-group" role="group">
+			    <button type="button" class="btn btn-default"><a href="www.reuters.com"></a>Reuters</button>
+			  </div>
+			  <div class="btn-group" role="group">
+			    <button type="button" class="btn btn-default"><a href="www.bbc.com"></a> The BBC</button>
+			  </div>
+			</div>
+		</nav>
+			
+	</head>
+	<body>
+		<div>
+			<h2>Find out what's going on around the world!</h2>
+		<!-- <form class="form-inline"> -->
+		<!-- <button class="btn btn-outline-success" type="button">List By Author</button> -->
+		<!-- <button class="btn btn-outline-success" type="button">List By Title</button> -->
+		<!-- </form> -->
+<!--Multiple fields including author, keyword search for description, and date published  -->
+			<button type="button" id="authorList">List by author</button>
+			<button type="button" id="titleList">List by title</button>
+			<section id="results" class="contentWrapper">
+				
+			</section>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+		<script type="text/javascript" src="js/ajax.js"></script>
+		</div>
+	</body>
+</html>
