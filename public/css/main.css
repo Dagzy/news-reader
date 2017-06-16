@@ -5,10 +5,18 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+   /* font-family: '', sans-serif;*/
 }
-form.form-inline {
+form {
 	text-align: center;
 }
 div{
 	text-align: center;
+}
+
+nav {
+	margin: 30px
+}
+h2 {
+	font-family: 'Oxygen', serif;
 }
