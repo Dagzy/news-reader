@@ -36,8 +36,8 @@ $(document).ready(function(){
 			type: 'GET',
 			url: 'https://newsapi.org/v1/articles?source=the-wall-street-journal&sortBy=top&apiKey=' + API_KEY,
 			success: (function(data){
-				$.each(data.articles, function(i, data){
-					makeList(data);
+				$.each(data.articles, function(i, dorko){
+					makeList(dorko);
 				});
 			}),
 			error: (function(){
